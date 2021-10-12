@@ -15659,6 +15659,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/wap/dotNetProjects/absensionline/Pages/Latihanbootstrap.cshtml",
+      "TargetPath": "Pages\\Latihanbootstrap.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/wap/dotNetProjects/absensionline/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"

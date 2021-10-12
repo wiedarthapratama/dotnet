@@ -1,0 +1,53 @@
+@page
+@{
+    Layout=null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengenal Grid System Bootstrap</title>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <style>
+        div{
+            background: #2ea3f2;
+            text-align: center;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic Grid Struktur</h1>
+    <p>Resize the browser window to see the effect.</p>
+    <p>baris pertama, kedua dan ketiga akan berubah teratur jika tampilan layar kurang dari 576px.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6" style="background-color: yellow">50%</div>
+            <div class="col-sm-6" style="background-color: orange">50%</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" style="background-color: yellow;">33.33%</div>
+            <div class="col-sm-4" style="background-color: orange;">33.33%</div>
+            <div class="col-sm-4" style="background-color: yellow;">33.33%</div>
+        </div>
+        <div class="row">
+            <div class="col-sm" style="background-color: yellow;">25%</div>
+            <div class="col-sm" style="background-color: orange;">25%</div>
+            <div class="col-sm" style="background-color: yellow;">25%</div>
+            <div class="col-sm" style="background-color: orange;">25%</div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: yellow;">25%</div>
+            <div class="col" style="background-color: orange;">25%</div>
+            <div class="col" style="background-color: yellow;">25%</div>
+            <div class="col" style="background-color: orange;">25%</div>
+        </div>
+    </div>
+</body>
+</html>
